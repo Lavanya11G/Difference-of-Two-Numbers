@@ -1,8 +1,11 @@
-from sys import argv
-from math import *
-import pylance
-import sql
+def main():
+    a = int(input("What is your first number?\n"))
+    b = int(input("What is your second number?\n"))
+    difference = a - b
+    if difference < 0:
+        difference *= -1
+    print(f"The difference between {a} and {b} is {difference}")
 
-a = int(input())
-b = int(input())
-print(a-b)
+
+if __name__ == "__main__":
+    main()
