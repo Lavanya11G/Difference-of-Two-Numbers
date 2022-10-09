@@ -1,10 +1,10 @@
 def main():
-    a = int(input("What is your first number?\n"))
-    b = int(input("What is your second number?\n"))
-    difference = a - b
+    a = 
+    b = 
+    difference = int(input("What is your first number?\n")) - int(input("What is your second number?\n"))
     if difference < 0:
         difference *= -1
-    print(f"The difference between {a} and {b} is {difference}")
+    print(f"The difference: {difference}")
 
 
 if __name__ == "__main__":
